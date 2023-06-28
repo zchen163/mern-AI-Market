@@ -61,7 +61,6 @@ function ProductScreen() {
       window.alert('Sorry, Product is out of sotck');
       return;
     }
-
     ctxDispatch({
       type: 'CART_ADD_ITEM',
       payload: { ...product, quantity },
